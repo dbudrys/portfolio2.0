@@ -1,0 +1,96 @@
+
+		<!--Start Full Row -->
+		<div class="row">
+			<div class="col-12 col-12-medium col-12-small">
+
+				<h3>
+					<b>NBA Analysis for the Correlation Between Points and Time </b> 	
+					&nbsp;
+						<span id="myModalBtn_NBA">
+						<a href="" onclick="return false;" class="icon solid fa-external-link-alt"></a>
+						</span>
+				</h3>
+
+			</div>
+
+			<!-- Project: NBA Analysis -->
+			<div class="col-12 col-12-medium col-12-small">
+
+					
+				<a href="" onclick="return false;" class="image fit" style="cursor: default;"> <img src="images/Project-NBA/nba-analysis.png" alt=""></a>
+
+				<p align="justify">
+						Provided NBA analysis is try to answer the question: Does playing more minutes in the NBA guarantee 
+						scoring more points. Provided dataset includesevery players yearly statistic from 1950-2017, total of
+						24691 record. Results are generated using <b>Apache Spark / Scala</b> and its' Machine Learining library for
+						K-Means. Final graph was developed using <b>Python</b> libraries such as: <b>Matplotlib and Pandas</b>
+				</p>
+
+				<div style="margin-top:-35px;"></div>
+
+				<b>Source Code: </b><a  href="https://github.com/dbudrys/Project-nbaAnalysis" target="_blank">Github</a>
+
+				
+				
+				<!-- Trigger/Open The Modal with an ID -->
+				<!-- <button id="myModalBtn">Open Modal</button> -->
+
+				<!-- The Modal -->
+				<div id="myModal_NBA" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+						<div class="modal-header">
+						<span class="close">&times;</span>
+						<h2>911 Calls - Code</h2>
+						</div>
+						<div class="modal-body">
+							<div class="modal-body">
+								<embed src="project-work-files/nbaAnalysis/Final Project.pdf"
+									frameborder="0" width="100%" height="500px">
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+<!-- Must Change myModalBtn_... id name to match spefic modals
+	This is needed because there can be only 1 ID on the page -->
+<script>
+// Get the modal
+var modal = document.getElementById("myModal_NBA");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myModalBtn_NBA");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+	modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+	modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+	if (event.target == modal) {
+	modal.style.display = "none";
+	}
+}
+</script>
+
+
+
